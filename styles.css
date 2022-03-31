@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+}
+body {
+    /* background: #ddb; */
+    background: #e5fce5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d1f22;
+    }
+    * h1 {
+        margin-top: 0px;
+    }
+    * h4 {
+        margin-bottom: 10px;
+    }
+    * footer {
+        max-width: 750px;
+        margin: auto;
+    }
+a {
+    color: #007;
+    text-decoration: none;
+}
+a:hover {
+    /* background-color: #ccc; */
+    color: #30f;
+    font-weight: bolder;
+}
+a:visited {
+    /* color:#009; */
+}
+
+
+.main {
+    max-width: 750px;
+    margin: auto;
+}
+.color-txt {
+    color: #007;
+}
+div {
+    margin-bottom: 9px;
+    /* border-bottom: 1px solid rgba(0, 0, 139, 0.719); */
+}
+ul {
+    margin-bottom: 0px;
+}
+hr {
+    height: 3px;
+    margin-top: 1px;
+}
+
+.bg-green {
+    background: #bffcc6;
+}
+.bg-red {
+    background: #ffdbdb;
+}
+.bg-yellow {
+    background: #ffffd1;
+}
+.bg-blue {
+    background: #c4faf8;
+}
+.card {
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    display: flex;
+    margin-top: 30px;
+}
+.intro_text {
+    margin-left: 25px;
+    padding: 5px 15px;
+    color: #111116dc;
+    font-kerning:initial;
+}
+.avatar {
+    max-width: 270px;
+    max-height: 250px;
+    border-radius: 19px;
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, .4);
+}
+label, input, textarea, {
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: #ffff71;
+    padding: 10px 20px;
+    border: none;
+    width: 47%;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    font-family: inherit;
+    border-radius: 7px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, .4);
+    
+}
+.btn:hover {
+    font-weight: bold;
+    font-size: 101%;
+    /* border: 1px solid; */
+    /* border-radius: 10px; */
+    /* margin: 0 12px; */
+    opacity: .9;
+    cursor: pointer;
+}
+.btn:active {
+    background-color: #ff9;
+    box-shadow: none;
+    opacity: .8;
+    /* font-size: 99%; */
+    font-weight: normal;
+    border: 1px solid;
+}
+.div_btn {
+    height: 45px;
+    display: flex;
+}
+.table {
+    width: 100%;
+}
+.table thead {
+    text-align: left;
+    border-bottom: #1d1f22 solid 2px;background: #faa;
+}
+.form_group label {
+    display: block;
+    font-family: inherit;
+    padding: 5px;
+    color: #220192;
+}
+
+.form_group input,
+.form_group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ff3;
+    border-right: 2px solid #ff3;
+    background: #ffffe1;
+    color: #600BAD;
+    padding: 5px;
+    outline: thin;
+    font-family: inherit;
+}
